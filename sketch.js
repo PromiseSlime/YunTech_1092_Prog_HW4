@@ -11,7 +11,7 @@ function preload(){
 
 function setup() {
   //guide by alert (\n -> next line)
-  alert("Earthquake Information: \nIf you want to see the information about longtitude, latitude, magnitude, please press key 'F12'. \n\nMusic: Earfquake by Tyler The Creator \n[Spoiler! Be Careful of The Volume!]");
+  alert("Earthquake Information: \nIf you want to see the information about longtitude, latitude, magnitude, please press key 'F12'. \n\nAutoplay Music: Earfquake by Tyler The Creator \n[Spoiler! Be Careful of The Volume!]");
   //Audio (element set to sutoplay)
     ele = createAudio('earfquake.mp3');
     ele.autoplay(true);
